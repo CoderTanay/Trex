@@ -37,12 +37,12 @@ function setup() {
   createCanvas(600, 200);
   
   gameOver = createSprite(300,100);
-  gameOver.scale = 0.5;
+  gameOver.scale = 0.4;
   gameOver.addImage("gameEnd",gameOverImage);
   gameOver.visible = false;
   
   restart = createSprite(300,140);
-  restart.scale = 0.5;
+  restart.scale = 0.4;
   restart.addImage("restart",restartImage);
   restart.visible = false;
   
